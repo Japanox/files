@@ -1,0 +1,110 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos do formulário */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #333;
+}
+
+/* Estilo para o botão de pré-visualização */
+input[type="button"] {
+    background-color: #333;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Estilo específico para o botão de pré-visualização */
+input[type="button"].preview {
+    background-color: #007bff;
+    /* Adicione outros estilos específicos, se necessário */
+}
+
+/* Estilos da lista de relatórios */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos da paginação */
+.paginacao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paginacao a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.paginacao a:hover {
+    background-color: #005599;
+}
